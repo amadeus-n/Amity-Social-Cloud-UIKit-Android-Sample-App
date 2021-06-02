@@ -1,0 +1,2 @@
+include ':community'
+rootProject.name = "AmityUIKitAndroidSample"
