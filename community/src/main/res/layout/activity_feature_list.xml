@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/amity_sixteen"
+    android:orientation="vertical"
+    tools:context="com.amity.community.FeatureListActivity">
+
+    <Button
+        android:id="@+id/btnOpenCustomCommunity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Custom Community"/>
+
+    <Button
+        android:id="@+id/btnCommunityHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Community"/>
+
+    <Button
+        android:id="@+id/btnCreatePost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Post"/>
+
+</LinearLayout>
